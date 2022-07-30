@@ -1,0 +1,12 @@
+let arr = [4, 6, 5, 2, 7];
+
+function linearSearch (n) {
+for (let i=0; i<arr.length; i++) {
+if(arr[i] === n) {
+return i;
+}
+}
+return -1;
+}
+
+console.log(linearSearch(2));
